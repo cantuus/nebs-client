@@ -56,6 +56,14 @@ class App extends React.Component {
       });
   }
 
+  renderMainComponent = () => {
+    return (
+      <>
+        {this.state.error ? <ErrorPage error={this.state.error} /> : !this.state.loading ? (this.getMainRoutes()) : <LoadingScreen />}
+      </>
+    );
+  }
+
 
   renderMainRoutes = () => {
     return (<Switch>
@@ -84,13 +92,7 @@ class App extends React.Component {
   }
 
 
-  renderMainComponent = () => {
-    return (
-      <>
-        {this.state.error ? <ErrorPage error={this.state.error} /> : !this.state.loading ? (this.getMainRoutes()) : <LoadingScreen />}
-      </>
-    );
-  }
+
 
   renderNavigationComponent = () => {
     return (
