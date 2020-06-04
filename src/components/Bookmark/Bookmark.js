@@ -4,12 +4,11 @@ import Context from '../../Context';
 import PropTypes from 'prop-types';
 import config from '../../config';
 
-class Note extends React.Component {
+class Bookmark extends React.Component {
     static contextType = Context;
     static propTypes = {
         id: PropTypes.number,
         name: PropTypes.string,
-        modified: PropTypes.string
     }
 
     handleDeleteBookmark = () => {
@@ -20,8 +19,8 @@ class Note extends React.Component {
                 'Authorization': `Bearer ${config.API_KEY}`
             }
         })
-            .then(resp => {
-                if (!resp.ok) {
+            .then(res => {
+                if (!res.ok) {
                     throw new Error('Something went wrong!')
                 }
             })
