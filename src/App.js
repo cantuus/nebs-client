@@ -4,6 +4,10 @@ import config from './config'
 import Context from './Context'
 import BookmarkList from './components/MainScreen/Bookmarklist'
 import WholeBookmark from './components/Bookmark/WholeBookmark'
+import FolderList from './components/NavBar/Folderlist'
+import BookmarkNav from './components/NavBar/BookmarkNav'
+import AddFolder from './components/Folder/AddFolder'
+import AddNote from './components/Bookmark/AddBookmark'
 import './App.css';
 
 class App extends React.Component {
