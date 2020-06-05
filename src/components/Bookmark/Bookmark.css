@@ -5,7 +5,7 @@
     color: #cacaca;
     height: var(--bookmark-height);
     margin-bottom: 8px;
-    max-width: 380px;
+    max-width: 42%;
     padding: 8px 0 8px 8px;
     position: relative;
   }
@@ -18,8 +18,9 @@
     float: right;
     font-size: 12px;
     height: var(--bookmark-button-height);
-    position: relative;
-    top: calc((var(--bookmark-button-height) + 32px) * -1);
+    position: absolute;
+    top: -2rem;
+    right: 0rem;
     transform-origin: right bottom;
     transform: rotate(-90deg);
     width: calc(var(--bookmark-height));
@@ -35,7 +36,7 @@
     font-family: var(--custom-font);
     font-size: 20px;
     margin: 0;
-    max-width: 80%;
+    max-width: 90%;
     min-height: 24px;
   }
   .Bookmark__title a {
@@ -47,9 +48,3 @@
     color: #FFB72F;
   }
   
-  .Bookmark__dates {
-    bottom: 8px;
-    color: #a7a5a5;
-    font-size: 14px;
-    position: absolute;
-  }

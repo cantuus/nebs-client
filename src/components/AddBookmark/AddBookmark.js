@@ -18,7 +18,6 @@ export default class AddBookmark extends Component {
             name: e.target['bookmark-name'].value,
             content: e.target['bookmark-content'].value,
             folder_id: e.target['bookmark-folder-id'].value,
-            modified: new Date(),
         }
         fetch(`${config.API_ENDPOINT}/bookmarks`, {
             method: 'POST',

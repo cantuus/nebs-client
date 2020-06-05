@@ -38,7 +38,7 @@ export default class Bookmark extends React.Component {
     }
 
     render() {
-        const { name, id, modified } = this.props
+        const { name, id } = this.props
         return (
             <div className='Bookmark'>
                 <h2 className='Bookmark__title'>
@@ -55,15 +55,6 @@ export default class Bookmark extends React.Component {
                     {' '}
           remove
         </button>
-                <div className='Bookmark__dates'>
-                    <div className='Bookmark__dates-modified'>
-                        Modified
-            {' '}
-                        <span className='Date'>
-                            {format(modified, 'Do MMM YYYY')}
-                        </span>
-                    </div>
-                </div>
             </div>
         )
     }

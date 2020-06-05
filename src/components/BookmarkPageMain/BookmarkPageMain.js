@@ -25,7 +25,6 @@ export default class BookmarkPageMain extends React.Component {
                 <Bookmark
                     id={bookmark.id}
                     name={bookmark.name}
-                    modified={bookmark.modified}
                     onDeleteBookmark={this.handleDeleteBookmark}
                 />
                 <div className='BookmarkPageMain__content'>
