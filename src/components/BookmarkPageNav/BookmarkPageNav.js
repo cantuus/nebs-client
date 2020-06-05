@@ -1,8 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CircleButton from '../CircleButton/CircleButton'
-import Context from '../Context'
-import { findBookmark, findFolder } from '../bookmarks-helpers'
+import Context from '../../Context'
+import { findBookmark, findFolder } from '../../bookmarks-helpers'
 import './BookmarkPageNav.css'
 
 export default class BookmarkPageNav extends React.Component {

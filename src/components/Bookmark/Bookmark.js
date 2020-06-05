@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { format } from 'date-fns'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import ApiContext from '../ApiContext'
-import config from '../config'
+import Context from '../../Context'
+import config from '../../config'
 import './Bookmark.css'
 
 export default class Bookmark extends React.Component {

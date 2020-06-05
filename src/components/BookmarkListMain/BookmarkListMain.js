@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Bookmark from '../Bookmark/Bookmark'
 import CircleButton from '../CircleButton/CircleButton'
-import Context from '../Context'
-import { getBookmarksForFolder } from '../bookmarks-helpers'
+import Context from '../../Context'
+import { getBookmarksForFolder } from '../../bookmarks-helpers'
 import './BookmarkListMain.css'
 
 export default class BookmarkListMain extends React.Component {

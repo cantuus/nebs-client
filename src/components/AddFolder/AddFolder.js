@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NebsForm from '../NebsForm/NebsForm'
-import Context from '../Context'
-import config from '../config'
+import Context from '../../Context'
+import config from '../../config'
 import './AddFolder.css'
 
 export default class AddFolder extends Component {

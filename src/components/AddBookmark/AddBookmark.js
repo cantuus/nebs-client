@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NebsForm from '../NebsForm/NebsForm'
-import Context from '../Context'
-import config from '../config'
+import Context from '../../Context'
+import config from '../../config'
 import './AddBookmark.css'
 
 export default class AddBookmark extends Component {
@@ -10,7 +10,7 @@ export default class AddBookmark extends Component {
             push: () => { }
         },
     }
-    static contextType = ApiContext;
+    static contextType = Context;
 
     handleSubmit = e => {
         e.preventDefault()

@@ -1,7 +1,7 @@
 import React from 'react'
 import Bookmark from '../Bookmark/Bookmark'
-import Context from '../Context'
-import { findBookmark } from '../bookmarks-helpers'
+import Context from '../../Context'
+import { findBookmark } from '../../bookmarks-helpers'
 import './BookmarkPageMain.css'
 
 export default class BookmarkPageMain extends React.Component {
@@ -10,7 +10,7 @@ export default class BookmarkPageMain extends React.Component {
             params: {}
         }
     }
-    static contextType = ApiContext
+    static contextType = Context
 
     handleDeleteBookmark = bookmarkId => {
         this.props.history.push(`/`)

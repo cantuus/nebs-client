@@ -2,8 +2,8 @@ import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CircleButton from '../CircleButton/CircleButton'
-import Context from '../Context'
-import { countBookmarksForFolder } from '../bookmarks-helpers'
+import Context from '../../Context'
+import { countBookmarksForFolder } from '../../bookmarks-helpers'
 import './BookmarkListNav.css'
 
 export default class BookmarkListNav extends React.Component {
