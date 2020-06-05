@@ -1,8 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const Context = React.createContext({
-    bookmarks: [],
+export default React.createContext({
+    notes: [],
     folders: [],
+    addFolder: () => { },
+    addNote: () => { },
+    deleteNote: () => { },
 })
-
-export default Context

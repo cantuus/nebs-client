@@ -1,0 +1,48 @@
+.Nebs-form {
+    background-color: #1d3656;
+    color: #dedede;
+    padding: 16px;
+    max-width: 332px;
+  }
+  
+  .Nebs-form label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+  
+  .Nebs-form input,
+  .Nebs-form textarea,
+  .Nebs-form select {
+    font-size: 14px;
+    padding: 8px;
+    width: 300px;
+  }
+  
+  .Nebs-form select {
+    height: 33px;
+  }
+  
+  .Nebs-form > .field {
+    margin-bottom: 16px;
+  }
+  .Nebs-form > .buttons {
+    margin-top: 26px;
+  }
+  
+  .Nebs-form button {
+    background-color: #010d1e;
+    border-radius: 4px;
+    border: 0;
+    color: #cacaca;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .Nebs-form button[type="submit"]:hover {
+    background-color: #29862e;
+    color: white;
+  }

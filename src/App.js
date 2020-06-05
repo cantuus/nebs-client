@@ -7,14 +7,17 @@ import WholeBookmark from './components/Bookmark/WholeBookmark'
 import FolderList from './components/NavBar/Folderlist'
 import BookmarkNav from './components/NavBar/BookmarkNav'
 import AddFolder from './components/Folder/AddFolder'
-import AddNote from './components/Bookmark/AddBookmark'
+import AddBookmark from './components/Bookmark/AddBookmark'
+import ErrorPage from './components/MainScreen/Errorpage'
+import LoadingScreen from './components/MainScreen/Loadingscreen'
 import './App.css';
 
 class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      folders: [], bookmarks: [],
+      folders: [],
+      bookmarks: [],
       loading: true,
       error: null
     }
@@ -59,7 +62,7 @@ class App extends React.Component {
   renderMainComponent = () => {
     return (
       <>
-        {this.state.error ? <ErrorPage error={this.state.error} /> : !this.state.loading ? (this.getMainRoutes()) : <LoadingScreen />}
+        {this.state.error ? <ErrorPage error={this.state.error} /> : !this.state.loading ? (this.renderMainRoutes()) : <LoadingScreen />}
       </>
     );
   }

@@ -1,0 +1,19 @@
+
+.BookmarkListMain ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .BookmarkListMain__button-container {
+    max-width: 380px;
+    margin: 0 10px;
+  }
+  
+  .BookmarkListMain__add-bookmark-button {
+    margin: 0 auto 20px;
+  }
+  .BookmarkListMain__add-bookmark-button:hover {
+    background-color: #29862e;
+    color: white;
+  }

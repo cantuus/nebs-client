@@ -1,0 +1,12 @@
+
+.BookmarkPageMain {
+    background-color: #efefef;
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .BookmarkPageMain__content {
+    color: #3a3939;
+    max-width: 380px;
+  }
