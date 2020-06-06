@@ -12,15 +12,16 @@
   
   .BookmarkListNav__add-folder-button {
     margin: 20px auto;
+    color: white;
   }
   .BookmarkListNav__add-folder-button:hover {
-    background-color: #29862e;
-    color: white;
+    background-color: white;
+    color:black;
   }
   
   .BookmarkListNav__folder-link {
-    background-color: #030f1f;
-    color: #b5b3b3;
+    background-color: #634F8F;
+    color: white;
     display: block;
     font-family: var(--custom-font);
     font-size: 20px;
@@ -34,11 +35,11 @@
     cursor: pointer;
   }
   .BookmarkListNav__folder-link.active {
-    background-color: #102541;
+    background-color: #888DC5;
   }
   
   .BookmarkListNav__num-bookmarks {
-    color: #adadad;
+    color: white;
     display: block;
     float: right;
     font-size: 10px;

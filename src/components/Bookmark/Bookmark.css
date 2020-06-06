@@ -1,7 +1,7 @@
 
 .Bookmark {
     --bookmark-height: 88px;
-    background-color: #010d1e;
+    background-color: #634F8F;
     color: #cacaca;
     height: var(--bookmark-height);
     margin-bottom: 8px;
@@ -12,9 +12,9 @@
   
   .Bookmark__delete {
     --bookmark-button-height: 32px;
-    background-color: #041a3a;
+    background-color: #2D276E;
     border: 0;
-    color: #bdbcbc;
+    color: white;
     float: right;
     font-size: 12px;
     height: var(--bookmark-button-height);
@@ -40,7 +40,7 @@
     min-height: 24px;
   }
   .Bookmark__title a {
-    color: #cacaca;
+    color: white;
     display: block;
     text-decoration: none;
   }

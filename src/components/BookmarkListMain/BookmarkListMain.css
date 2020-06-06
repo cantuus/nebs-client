@@ -12,8 +12,9 @@
   
   .BookmarkListMain__add-bookmark-button {
     margin: 0 auto 20px;
+    color:white;
   }
   .BookmarkListMain__add-bookmark-button:hover {
-    background-color: #29862e;
-    color: white;
+    background-color: white;
+    color:black;
   }
